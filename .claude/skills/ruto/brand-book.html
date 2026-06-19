@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ruto Style - Brand Book</title>
+<title>Ruto Style - كتاب الهوية</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' fill='none' stroke='%23ff6b1a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M24 6l18 10v16L24 42 6 32V16Z'/%3E%3Cpath d='M24 6v16l18 10' opacity='0.5'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
   html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
   body { font-family: 'Outfit', sans-serif; background: var(--dk); }
   .slide { height: 100vh; scroll-snap-align: start; overflow: hidden; position: relative; }
-  .nav { position: fixed; right: 20px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 9px; z-index: 10; mix-blend-mode: difference; }
+  .nav { position: fixed; left: 20px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; gap: 9px; z-index: 10; mix-blend-mode: difference; }
   .nav a { width: 7px; height: 7px; border-radius: 50%; background: #888; display: block; }
   .nav a:hover { background: var(--orange); }
   canvas { display: block; }
@@ -104,138 +104,138 @@
 
 <nav class="nav"><a href="#b1"></a><a href="#b2"></a><a href="#b3"></a><a href="#b4"></a><a href="#b5"></a><a href="#b6"></a><a href="#b7"></a><a href="#b8"></a></nav>
 
-<!-- B1 · COVER -->
+<!-- B1 · الغلاف -->
 <section class="slide b1" id="b1">
-  <div class="kick">Brand book</div>
-  <h1>The <span class="px">RUTO</span> Style</h1>
-  <div class="sub">static · dotted · orange</div>
-  <div class="dev">by هاشم جميل — مدعوم من شركة افاقي</div>
+  <div class="kick">كتاب الهوية</div>
+  <h1>أسلوب <span class="px">RUTO</span></h1>
+  <div class="sub">ثابت · منقّط · برتقالي</div>
+  <div class="dev">تطوير هاشم جميل — بدعم من شركة افاقي</div>
   <div class="hexwrap"><canvas id="cHex"></canvas></div>
 </section>
 
-<!-- B2 · COLORS -->
+<!-- B2 · الألوان -->
 <section class="slide b2" id="b2">
-  <div class="kick">01 · Color</div>
-  <h2 class="sec">Four colors. <span class="px">ONE</span> accent.</h2>
+  <div class="kick">01 · الألوان</div>
+  <h2 class="sec">أربعة ألوان. لون تمييز <span class="px">ONE</span></h2>
   <div class="sw-row">
     <div class="sw">
       <div class="chip" style="background:#f2efe8; border-bottom:none;"></div>
-      <div class="meta"><div class="nm">Paper</div><div class="hex">#F2EFE8</div><div class="use">main background · cards lighten to #FAF8F2</div></div>
+      <div class="meta"><div class="nm">ورقي</div><div class="hex">#F2EFE8</div><div class="use">الخلفية الرئيسية · البطاقات تفتح إلى #FAF8F2</div></div>
     </div>
     <div class="sw">
       <div class="chip" style="background:#131311;"></div>
-      <div class="meta"><div class="nm">Black</div><div class="hex">#131311</div><div class="use">emphasis slides · half-slide splits</div></div>
+      <div class="meta"><div class="nm">أسود</div><div class="hex">#131311</div><div class="use">شرائح التأكيد · التقسيمات النصفية</div></div>
     </div>
     <div class="sw">
       <div class="chip" style="background:#ff6b1a;"></div>
-      <div class="meta"><div class="nm">Orange</div><div class="hex">#FF6B1A</div><div class="use">the only highlight - words, key dots, hot cards</div></div>
+      <div class="meta"><div class="nm">برتقالي</div><div class="hex">#FF6B1A</div><div class="use">لون التمييز الوحيد - الكلمات، النقاط المهمة، البطاقات المميزة</div></div>
     </div>
     <div class="sw">
       <div class="chip" style="background:#f5a623;"></div>
-      <div class="meta"><div class="nm">Yellow</div><div class="hex">#F5A623</div><div class="use">rare second accent · only when you deliberately choose it</div></div>
+      <div class="meta"><div class="nm">أصفر</div><div class="hex">#F5A623</div><div class="use">لون ثانوي نادر · فقط عند الاختيار المتعمد</div></div>
     </div>
   </div>
 </section>
 
-<!-- B3 · TYPOGRAPHY -->
+<!-- B3 · الخطوط -->
 <section class="slide b3" id="b3">
-  <div class="kick">02 · Type</div>
-  <h2 class="sec">Two voices, <span class="px">CLEAR</span> jobs</h2>
+  <div class="kick">02 · الخطوط</div>
+  <h2 class="sec">صوتان، أدوار <span class="px">CLEAR</span></h2>
   <div style="margin-top:2vh;">
     <div class="tline">
-      <div class="lab">Headings<br>Outfit 500</div>
-      <div class="demo-head">Swap the <span class="px">ENGINE</span>, keep the system</div>
+      <div class="lab">العناوين<br>Outfit 500</div>
+      <div class="demo-head">غيّر <span class="px">ENGINE</span> وأبقِ النظام</div>
     </div>
     <div class="tline">
-      <div class="lab">Body<br>Outfit 400</div>
-      <div class="demo-body">Body text stays at weight 400 - readable, never thinner. One short supporting line per slide at most.</div>
+      <div class="lab">النص الأساسي<br>Outfit 400</div>
+      <div class="demo-body">النص الأساسي يبقى بوزن 400 - مقروء، لا أنحف من ذلك. سطر دعم قصير واحد كحد أقصى لكل شريحة.</div>
     </div>
     <div class="tline">
-      <div class="lab">Kickers<br>Outfit 400 · spaced</div>
-      <div class="demo-kick">Model day · system report</div>
+      <div class="lab">العناوين الفرعية<br>Outfit 400 · متباعد</div>
+      <div class="demo-kick">يوم النموذج · تقرير النظام</div>
     </div>
     <div class="tline">
-      <div class="lab">Pixel emphasis<br>Doto 900 · headers only</div>
+      <div class="lab">تأكيد بكسلي<br>Doto 900 · للعناوين فقط</div>
       <div class="demo-doto">UPGRADE <span style="color:var(--orange)">DAY</span></div>
     </div>
   </div>
 </section>
 
-<!-- B4 · DOT MATRIX PRINCIPLE -->
+<!-- B4 · مبدأ النقاط المصفوفة -->
 <section class="slide b4" id="b4">
   <div>
-    <div class="kick">03 · Visuals</div>
-    <h2 class="sec" style="color:var(--cream)">Dots carry the <span class="px">SHAPE</span></h2>
+    <div class="kick">03 · المرئيات</div>
+    <h2 class="sec" style="color:var(--cream)">النقاط تحمل <span class="px">SHAPE</span></h2>
     <div class="rules" style="margin-top:4vh;">
-      <div class="rule"><div class="n">01</div><div><div class="t">Size makes the image</div><div class="d">fixed grid, dot radius = brightness. shapes emerge from thickness, like halftone print.</div></div></div>
-      <div class="rule"><div class="n">02</div><div><div class="t">Two layers max</div><div class="d">ink or cream field + one orange feature. never more.</div></div></div>
-      <div class="rule"><div class="n">03</div><div><div class="t">Text wins over dots</div><div class="d">dots behind text drop to 20% opacity - or the shape leaves a hollow zone.</div></div></div>
-      <div class="rule"><div class="n">04</div><div><div class="t">Functions, not files</div><div class="d">every shape is a 10-30 line brightness function. cheap, reproducible, infinite.</div></div></div>
+      <div class="rule"><div class="n">01</div><div><div class="t">الحجم يصنع الصورة</div><div class="d">شبكة ثابتة، نصف قطر النقطة = السطوع. الأشكال تظهر من السُمك، مثل الطباعة النصفية.</div></div></div>
+      <div class="rule"><div class="n">02</div><div><div class="t">طبقتان كحد أقصى</div><div class="d">حقل حبر أو كريمي + طبقة برتقالية مميزة واحدة. لا أكثر.</div></div></div>
+      <div class="rule"><div class="n">03</div><div><div class="t">النص يتفوق على النقاط</div><div class="d">النقاط خلف النص تنخفض إلى 20% شفافية - أو الشكل يترك منطقة فارغة.</div></div></div>
+      <div class="rule"><div class="n">04</div><div><div class="t">دوال، لا ملفات</div><div class="d">كل شكل هو دالة سطوع من 10-30 سطر. رخيص، قابل للتكرار، لا نهائي.</div></div></div>
     </div>
   </div>
   <div class="vis">
     <canvas id="cSphereDemo"></canvas>
-    <div class="lab" style="color:var(--mutd)">one sphere · one function</div>
+    <div class="lab" style="color:var(--mutd)">كرة واحدة · دالة واحدة</div>
   </div>
 </section>
 
-<!-- B5 · SHAPE RECIPES -->
+<!-- B5 · مكتبة الأشكال -->
 <section class="slide b5" id="b5">
-  <div class="kick">04 · Recipe library</div>
-  <h2 class="sec">Eight shapes, <span class="px">READY</span></h2>
+  <div class="kick">04 · مكتبة الوصفات</div>
+  <h2 class="sec">ثمانية أشكال، <span class="px">READY</span></h2>
   <div class="grid">
-    <div class="shape"><canvas id="sHour"></canvas><div class="nm">hourglass</div></div>
-    <div class="shape"><canvas id="sBars"></canvas><div class="nm">bar chart</div></div>
-    <div class="shape"><canvas id="sWave"></canvas><div class="nm">wave</div></div>
-    <div class="shape"><canvas id="sArrow"></canvas><div class="nm">arrow</div></div>
-    <div class="shape"><canvas id="sBurst"></canvas><div class="nm">sunburst</div></div>
-    <div class="shape"><canvas id="sHexS"></canvas><div class="nm">hexagon</div></div>
-    <div class="shape"><canvas id="sSphereS"></canvas><div class="nm">sphere</div></div>
-    <div class="shape"><canvas id="sMt"></canvas><div class="nm">mountain</div></div>
+    <div class="shape"><canvas id="sHour"></canvas><div class="nm">ساعة رملية</div></div>
+    <div class="shape"><canvas id="sBars"></canvas><div class="nm">مخطط أعمدة</div></div>
+    <div class="shape"><canvas id="sWave"></canvas><div class="nm">موجة</div></div>
+    <div class="shape"><canvas id="sArrow"></canvas><div class="nm">سهم</div></div>
+    <div class="shape"><canvas id="sBurst"></canvas><div class="nm">انفجار شمسي</div></div>
+    <div class="shape"><canvas id="sHexS"></canvas><div class="nm">سداسي</div></div>
+    <div class="shape"><canvas id="sSphereS"></canvas><div class="nm">كرة</div></div>
+    <div class="shape"><canvas id="sMt"></canvas><div class="nm">جبل</div></div>
   </div>
 </section>
 
-<!-- B6 · CARDS + ICONS -->
+<!-- B6 · البطاقات + الأيقونات -->
 <section class="slide b6" id="b6">
   <div>
-    <div class="kick">05 · Cards + icons</div>
-    <h2 class="sec">Hard edges, <span class="px">PIXEL</span> icons</h2>
+    <div class="kick">05 · البطاقات + الأيقونات</div>
+    <h2 class="sec">حواف حادة، أيقونات <span class="px">PIXEL</span></h2>
     <div class="specs">
-      <div class="spec"><span><b>2px ink border</b> + solid 6px offset shadow</span></div>
-      <div class="spec"><span><b>orange border + shadow</b> marks THE highlight card - one per group</span></div>
-      <div class="spec"><span>icons are <b>10×10 pixel sprites</b> on canvas - never vector SVG</span></div>
-      <div class="spec"><span><b>outline icons in ink</b> · solid fill reserved for the orange one</span></div>
+      <div class="spec"><span><b>حدود حبر 2px</b> + ظل صلب منزاح 6px</span></div>
+      <div class="spec"><span><b>حدود + ظل برتقالي</b> يميّز البطاقة المهمة - واحدة لكل مجموعة</span></div>
+      <div class="spec"><span>الأيقونات <b>رسوم بكسلية 10×10</b> على canvas - أبداً SVG</span></div>
+      <div class="spec"><span><b>أيقونات محيطية بالحبر</b> · التعبئة الصلبة محجوزة للبرتقالية</span></div>
     </div>
   </div>
   <div class="cards">
-    <div class="card"><canvas id="ic1" class="pixcanvas"></canvas><div><div class="t">folders + markdown</div><div class="s">yours forever</div></div></div>
-    <div class="card"><canvas id="ic2" class="pixcanvas"></canvas><div><div class="t">skills + router</div><div class="s">yours forever</div></div></div>
-    <div class="card hot"><canvas id="ic3" class="pixcanvas"></canvas><div><div class="t">the model</div><div class="s">swap anytime</div></div></div>
+    <div class="card"><canvas id="ic1" class="pixcanvas"></canvas><div><div class="t">مجلدات + ماركداون</div><div class="s">ملكك للأبد</div></div></div>
+    <div class="card"><canvas id="ic2" class="pixcanvas"></canvas><div><div class="t">مهارات + موجّه</div><div class="s">ملكك للأبد</div></div></div>
+    <div class="card hot"><canvas id="ic3" class="pixcanvas"></canvas><div><div class="t">النموذج</div><div class="s">بدّله متى شئت</div></div></div>
   </div>
 </section>
 
-<!-- B7 · LAYOUT RULES -->
+<!-- B7 · قواعد التخطيط -->
 <section class="slide b7" id="b7">
-  <div class="kick">06 · Layout</div>
-  <h2 class="sec" style="color:var(--cream)">Less is the <span class="px">RULE</span></h2>
+  <div class="kick">06 · التخطيط</div>
+  <h2 class="sec" style="color:var(--cream)">الأقل هو <span class="px">RULE</span></h2>
   <div class="lrules">
-    <div class="lr"><div class="t">Minimal text</div><div class="d">title ≤6 words · one support line max. if it reads like a sentence, cut it.</div></div>
-    <div class="lr"><div class="t"><span class="px">CENTERED</span> by default</div><div class="d">heading + visual centered. size the stage columns to content - never strand a label against the edge.</div></div>
-    <div class="lr"><div class="t">No kickers by default</div><div class="d">no module codes or section labels above the heading. one header per slide unless asked.</div></div>
-    <div class="lr"><div class="t"><span class="px">STATIC</span> by default</div><div class="d">print energy. the only motion: sparing dot-matrix animation.</div></div>
-    <div class="lr"><div class="t">No corner text</div><div class="d">no watermarks, tags, slide numbers, or folio labels. clean canvas.</div></div>
-    <div class="lr"><div class="t">One idea per slide</div><div class="d">one heading, one visual. split before you cram.</div></div>
-    <div class="lr"><div class="t">Mix the backgrounds</div><div class="d">mostly paper · black for emphasis beats · half/half splits for variety.</div></div>
-    <div class="lr"><div class="t">Pixel font sparingly</div><div class="d">Doto marks 1-2 emphasis words in a heading - never body text or whole lines.</div></div>
+    <div class="lr"><div class="t">نص قليل</div><div class="d">العنوان ≤6 كلمات · سطر دعم واحد كحد أقصى. إذا قرأته كجملة، اختصره.</div></div>
+    <div class="lr"><div class="t"><span class="px">CENTERED</span> افتراضياً</div><div class="d">العنوان + المرئي في المنتصف. حجّم أعمدة المسرح حسب المحتوى - لا تترك عنصراً معلقاً على الحافة.</div></div>
+    <div class="lr"><div class="t">بدون عناوين فرعية افتراضياً</div><div class="d">لا أكواد أقسام أو تسميات فوق العنوان. عنوان واحد لكل شريحة ما لم يُطلب غير ذلك.</div></div>
+    <div class="lr"><div class="t"><span class="px">STATIC</span> افتراضياً</div><div class="d">طاقة مطبوعة. الحركة الوحيدة: تحريك نقاط مصفوفة بحذر.</div></div>
+    <div class="lr"><div class="t">بدون نص في الزوايا</div><div class="d">لا علامات مائية، لا وسوم، لا أرقام شرائح، لا تسميات. لوحة نظيفة.</div></div>
+    <div class="lr"><div class="t">فكرة واحدة لكل شريحة</div><div class="d">عنوان واحد، مرئي واحد. قسّم قبل أن تحشر.</div></div>
+    <div class="lr"><div class="t">امزج الخلفيات</div><div class="d">غالباً ورقي · أسود للتأكيد · تقسيمات نصفية للتنويع.</div></div>
+    <div class="lr"><div class="t">خط البكسل باعتدال</div><div class="d">Doto يميّز 1-2 كلمة تأكيد في العنوان - أبداً نص أساسي أو أسطر كاملة.</div></div>
   </div>
 </section>
 
-<!-- B8 · CLOSER -->
+<!-- B8 · الختام -->
 <section class="slide b8" id="b8">
   <div class="wavebottom"><canvas id="cWave"></canvas></div>
-  <h1>BUILD IT <span class="px">ONCE</span></h1>
-  <div class="sub">the RUTO style</div>
-  <div class="dev">هاشم جميل — مدعوم من شركة افاقي</div>
+  <h1>ابنِه <span class="px">ONCE</span></h1>
+  <div class="sub">أسلوب RUTO</div>
+  <div class="dev">تطوير هاشم جميل — بدعم من شركة افاقي</div>
 </section>
 
 <script>
